@@ -1,0 +1,13 @@
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Build output
+bin/
+target/
+
+# TestNG reports
+test-output/
+
+
