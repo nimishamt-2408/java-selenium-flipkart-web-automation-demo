@@ -31,7 +31,7 @@ public class BaseClass {
 	 */
 	@BeforeClass
     public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nimisha\\Selenium\\chromedriver-win64\\chromedriver.exe\\");
+		System.setProperty("webdriver.chrome.driver", System.getenv("CHROME_DRIVER_PATH"));
 		driver = new ChromeDriver();
     	
         driver.manage().window().maximize();
