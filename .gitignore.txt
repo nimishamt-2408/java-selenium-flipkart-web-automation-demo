@@ -1,0 +1,17 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Build outputs
+bin/
+out/
+
+# Selenium drivers
+drivers/
+*.exe
+*.zip
+*.dmg
+
+# TestNG output
+test-output/

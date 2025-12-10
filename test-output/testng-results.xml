@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-10T10:10:44 IST" name="AutomationSuite" finished-at="2025-12-10T10:11:02 IST" duration-ms="17661">
+    <groups>
+    </groups>
+    <test started-at="2025-12-10T10:10:44 IST" name="FlipkartTests" finished-at="2025-12-10T10:11:02 IST" duration-ms="17661">
+      <class name="tests.FlipkartTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:44 IST" name="setup" finished-at="2025-12-10T10:10:47 IST" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchFlipkartAndVerifyTitle()[pri:1, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:47 IST" name="launchFlipkartAndVerifyTitle" finished-at="2025-12-10T10:10:47 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFlipkartAndVerifyTitle -->
+        <test-method signature="handleLoginPopup()[pri:2, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:47 IST" name="handleLoginPopup" finished-at="2025-12-10T10:10:49 IST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleLoginPopup -->
+        <test-method signature="searchProduct()[pri:3, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:49 IST" name="searchProduct" finished-at="2025-12-10T10:10:51 IST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="captureProductListings()[pri:4, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:51 IST" name="captureProductListings" finished-at="2025-12-10T10:10:51 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureProductListings -->
+        <test-method signature="clickFirstProductAndHandleTab()[pri:5, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:51 IST" name="clickFirstProductAndHandleTab" finished-at="2025-12-10T10:10:54 IST" duration-ms="3195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstProductAndHandleTab -->
+        <test-method signature="verifyProductDetails()[pri:6, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:54 IST" name="verifyProductDetails" finished-at="2025-12-10T10:10:54 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetails -->
+        <test-method signature="takeScreenshot()[pri:7, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:55 IST" name="takeScreenshot" finished-at="2025-12-10T10:10:57 IST" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="mouseHoverMenu()[pri:8, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:57 IST" name="mouseHoverMenu" finished-at="2025-12-10T10:10:59 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FlipkartTests@3590fc5b]" started-at="2025-12-10T10:10:59 IST" name="tearDown" finished-at="2025-12-10T10:11:02 IST" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FlipkartTests -->
+    </test> <!-- FlipkartTests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
